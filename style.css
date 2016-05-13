@@ -3,6 +3,7 @@ body {
 	background-image: url("https://il2.picdn.net/shutterstock/videos/5151608/thumb/9.jpg");
     background-position: bottom center;
 	font-variant: small-caps;
+    background-size: cover;
     font-family: "times new roman";
 
 }
