@@ -41,8 +41,9 @@ body {
   }
 
   #startpgtext {
+    text-align: left;
     position: absolute;
-        top: 600px;
+        top: 550px;
   }
 
 
