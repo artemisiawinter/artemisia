@@ -40,6 +40,11 @@ body {
     color: white;
   }
 
+  #startpgtext {
+    position: absolute;
+        top: 800px;
+  }
+
 
 
 /*Stuff below governs the Explore screen*/
