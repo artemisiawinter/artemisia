@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-position: center center;
 	font-variant: small-caps;
+    font-family: courier;
 
 }
 
@@ -17,7 +18,6 @@ body {
 .splashTitle {
 	color: #fff;
     font-size: 6em;
-    text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
