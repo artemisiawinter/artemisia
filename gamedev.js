@@ -3,7 +3,7 @@ $( document ).ready(function() {
 $("#instructions").hide();
 
 $("#instructionbutton").click(function(){
-	$("#startpagetext").hide();
+	$("#startpgtext").hide();
 	$("#instructions").show();
 }); //end of instructionbutton
 });//end of function
