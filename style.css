@@ -40,7 +40,13 @@ body {
     color: white;
   }
 
-  #startpgtext, #instructions {
+  #startpgtext {
+    text-align: left;
+    position: absolute;
+        top: 650px;
+  }
+
+  #instructions {
     text-align: left;
     position: absolute;
         top: 650px;
