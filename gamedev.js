@@ -13,5 +13,9 @@ $("#x").click(function(){
 	$("#startpgtext").show();
 	$("#instructions").hide();
 	$("#x").hide();
-})
+})//end of "x"
+
+$("#goldenkey").click(function(){
+	$("#goldenkey").hide();
+})//goldkey end
 });//end of function
