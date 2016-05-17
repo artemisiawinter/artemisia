@@ -21,7 +21,7 @@ body {
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.button {
+.button, button {
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
@@ -40,7 +40,7 @@ body {
     color: white;
   }
 
-  #startpgtext {
+  #startpgtext, #instructions {
     text-align: left;
     position: absolute;
         top: 650px;
