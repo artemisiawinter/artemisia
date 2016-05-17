@@ -1,4 +1,4 @@
-$("instructions").hide()
+$("#instructions").hide();
 
 $( document ).ready(function() {
 $("#instructionbutton").click(function(){
