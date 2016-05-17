@@ -78,15 +78,10 @@ body {
 }
 #goldenkey{
     display: block;
-    width: 40px;
+    width: 10px;
     height: 20px;
     position: absolute;
     top: 300px;
     left: 110px;
 }
-#close-CSS {
-    background-image: url("http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg");
-    background-size: 100px 130px;
-    height: 134px;  
-    width: 104px;
-}
+
