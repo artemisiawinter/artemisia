@@ -68,6 +68,9 @@ body {
 
 }
 #goldenkey{
-    width: 20px;
+    width: 40px;
     height: 20px;
+    position: absolute;
+    top: 300px;
+    left: 110px;
 }
