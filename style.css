@@ -53,11 +53,13 @@ body {
   }
 
   #x {
-    text-align: center;
+    text-align: left;
     position: absolute;
         top: 650px;
     height: 10px;
     width: 10px;
+    float: right;
+    font-size: 9px;
   }
 
 
