@@ -40,7 +40,7 @@ body {
     color: white;
   }
 
-  #startpgtext {
+  #startpgtext, #instructions {
     text-align: left;
     position: absolute;
         top: 650px;

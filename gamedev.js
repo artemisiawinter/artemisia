@@ -1,6 +1,6 @@
+$( document ).ready(function() {
 $("#instructions").hide();
 
-$( document ).ready(function() {
 $("#instructionbutton").click(function(){
 	$("#startpagetext").hide();
 	$("#instructions").show();
