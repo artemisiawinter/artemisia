@@ -21,7 +21,7 @@ body {
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.button, button {
+.button {
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
@@ -40,7 +40,7 @@ body {
     color: white;
   }
 
-  #startpgtext, #instructions {
+  #startpgtext {
     text-align: left;
     position: absolute;
         top: 650px;
@@ -56,10 +56,9 @@ body {
 
 }
 #goldenkey{
-    background-image: url("http://img07.deviantart.net/71be/i/2012/096/f/2/a_golden_key_by_amalus-d4v6gen.png");
     width: 40px;
     height: 20px;
     position: absolute;
-    top: 650px;
+    top: 300px;
     left: 100px;
 }
