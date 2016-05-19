@@ -1,8 +1,9 @@
-$("#prisondoor").hide();
+
 $( document ).ready(function() {
 
 $("#instructions").hide();
 $("#x").hide();
+$("#prisondoor").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -19,6 +20,6 @@ $("#x").click(function(){
 $("#goldenkey").click(function(){
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
-	$("#prisondoor").hide();
+	$("#prisondoor").show();
 })//goldenkey end
 });//end of function
