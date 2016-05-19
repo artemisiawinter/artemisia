@@ -1,3 +1,4 @@
+$("#prisondoor").hide();
 $( document ).ready(function() {
 
 $("#instructions").hide();
@@ -18,5 +19,6 @@ $("#x").click(function(){
 $("#goldenkey").click(function(){
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
+	$("#prisondoor").hide();
 })//goldenkey end
 });//end of function
