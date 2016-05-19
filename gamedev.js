@@ -17,5 +17,7 @@ $("#x").click(function(){
 
 $("#goldenkey").click(function(){
 	$("#goldenkey").hide();
-})//goldkey end
+	$("#exploreBody").hide();
+	$("#background3").show();
+})//goldenkey end
 });//end of function
