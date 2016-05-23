@@ -34,4 +34,10 @@ $(document).mousemove(function(e) {
 
 $("#prisondoor").click(function(){
 	$("#prisondoor").hide();
+<<<<<<< HEAD
 })//end of prisondoor
+=======
+});//end of prisondoor
+});// end of function
+
+>>>>>>> origin/master
