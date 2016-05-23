@@ -19,6 +19,9 @@ $("#x").click(function(){
 })//end of "x"
 
 $("#goldenkey").click(function(){
+	$("#prisondoor").click(function(){
+		$("#exploreBody").css("background-image", "url()");
+	});//end of prisondoor click function
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
