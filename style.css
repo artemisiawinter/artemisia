@@ -78,14 +78,6 @@ body {
     left: 490px;
 }
 
-#door {
-    width: 80px;
-    height: 20px;
-    position: absolute;
-    top: 650px;
-    left: 490px;
-}
-
 #background3{
     background-image: url("http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg")
     position: absolute;
