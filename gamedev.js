@@ -34,4 +34,4 @@ $(document).mousemove(function(e) {
 
 $("#prisondoor").click(function(){
 	$("#prisondoor").hide();
-})//end of prisondoor
+});//end of prisondoor
