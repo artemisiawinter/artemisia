@@ -18,16 +18,6 @@ $("#x").click(function(){
 });//end of "x"
 
 $("#goldenkey").click(function(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of d9fde66... set up door click function
-=======
->>>>>>> parent of d9fde66... set up door click function
-=======
->>>>>>> parent of d9fde66... set up door click function
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
@@ -38,4 +28,5 @@ $(document).mousemove(function(e) {
         top: e.pageY + 20
 });// end of cursor move
 });//goldenkey end
+});//end of function
 });//end of function
