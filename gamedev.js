@@ -16,7 +16,7 @@ $("#x").click(function(){
 	$("#startpgtext").show();
 	$("#instructions").hide();
 	$("#x").hide();
-});//end of "x"
+})//end of "x"
 
 $("#goldenkey").click(function(){
 	$("#goldenkey").hide();
@@ -28,16 +28,10 @@ $(document).mousemove(function(e) {
         left: e.pageX,
         top: e.pageY + 20
     });
-});// cursor follow end
-});//goldenkey end
+});
+})//goldenkey end
 });//end of function
 
-<<<<<<< HEAD
 $("#door").click(function(){
 	$("#door").hide();
 })//end of prisondoor
-=======
-$("#prisondoor").click(function(){
-	$("#prisondoor").hide();
-});//end of prisondoor
->>>>>>> origin/master
