@@ -18,7 +18,10 @@ $("#x").click(function(){
 });//end of "x"
 
 $("#goldenkey").click(function(){
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d9fde66... set up door click function
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
