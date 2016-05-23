@@ -4,7 +4,7 @@ $( document ).ready(function() {
 $("#instructions").hide();
 $("#x").hide();
 $("#prisondoor").hide();
-$("#goldenkey2").hide();
+$(".goldenkey2").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
