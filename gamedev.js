@@ -27,8 +27,7 @@ $(document).mousemove(function(e) {
     $('.goldenkey2').offset({
         left: e.pageX,
         top: e.pageY + 20
-    });
-});
+});// end of cursor move
 })//goldenkey end
 });//end of function
 
