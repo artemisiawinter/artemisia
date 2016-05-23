@@ -32,6 +32,12 @@ $(document).mousemove(function(e) {
 })//goldenkey end
 });//end of function
 
+<<<<<<< HEAD
 $("#prisondoor").click(function(){
 	$("#prisondoor").hide();
 });//end of prisondoor
+=======
+$("#door").click(function(){
+	$("#door").hide();
+})//end of prisondoor
+>>>>>>> origin/master
