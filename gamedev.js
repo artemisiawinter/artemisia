@@ -38,6 +38,6 @@ $("#prisondoor").click(function(){
 })//end of prisondoor
 =======
 });//end of prisondoor
-
+});// end of function
 
 >>>>>>> origin/master
