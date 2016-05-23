@@ -15,9 +15,13 @@ $("#x").click(function(){
 	$("#startpgtext").show();
 	$("#instructions").hide();
 	$("#x").hide();
-})//end of "x"
+});//end of "x"
 
 $("#goldenkey").click(function(){
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
@@ -27,6 +31,7 @@ $(document).mousemove(function(e) {
         left: e.pageX,
         top: e.pageY + 20
 });// end of cursor move
+<<<<<<< HEAD
 })//goldenkey end
 
 $("#prisondoor").click(function(){
@@ -34,3 +39,7 @@ $("#prisondoor").click(function(){
 	});//end of prisondoor click function
 
 });//end of function
+=======
+});//goldenkey end
+});//end of function
+>>>>>>> origin/master
