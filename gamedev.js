@@ -20,7 +20,10 @@ $("#x").click(function(){
 $("#goldenkey").click(function(){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d9fde66... set up door click function
 =======
 >>>>>>> parent of d9fde66... set up door click function
 =======
