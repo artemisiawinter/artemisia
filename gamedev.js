@@ -32,6 +32,6 @@ $(document).mousemove(function(e) {
 })//goldenkey end
 });//end of function
 
-$("#prisondoor").click(function(){
-	$("#prisondoor").hide();
+$("#door").click(function(){
+	$("#door").hide();
 })//end of prisondoor
