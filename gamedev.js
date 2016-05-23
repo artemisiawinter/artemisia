@@ -15,15 +15,10 @@ $("#x").click(function(){
 	$("#startpgtext").show();
 	$("#instructions").hide();
 	$("#x").hide();
-})//end of "x"
+});//end of "x"
 
 $("#goldenkey").click(function(){
-<<<<<<< HEAD
-=======
-	$("#prisondoor").click(function(){
-		$("#exploreBody").css("background-image", "url()");
-	});//end of prisondoor click function
->>>>>>> parent of c276d4d... added test bg
+
 	$("#goldenkey").hide();
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
@@ -33,5 +28,5 @@ $(document).mousemove(function(e) {
         left: e.pageX,
         top: e.pageY + 20
 });// end of cursor move
-})//goldenkey end
+});//goldenkey end
 });//end of function
