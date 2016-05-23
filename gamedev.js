@@ -33,5 +33,5 @@ $(document).mousemove(function(e) {
 });//end of function
 
 $("#prisondoor").click(function(){
-		$("#exploreBody").css("background-image", "url(http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg)");
-	});//end of prisondoor click function
+	$("#prisondoor").hide();
+})//end of prisondoor
