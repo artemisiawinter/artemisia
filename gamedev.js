@@ -24,7 +24,7 @@ $("#goldenkey").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
 	$(".goldenkey2").show();
-	$("metaldiv").show();
+	$("#metaldiv").show();
 $(document).mousemove(function(e) {
     $('.goldenkey2').offset({
         left: e.pageX,
