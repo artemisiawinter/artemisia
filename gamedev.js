@@ -41,5 +41,6 @@ $("#metaldiv").click(function(){
 });//end of metaldiv
 $("#deadend").click(function(){
 $("#exploreBody").css("background-image", "url(http://desktopwalls.net/wp-content/uploads/2014/09/Stone%20Bricks%20Wall%20Wooden%20Floor%20Desktop%20Wallpaper.jpg)");
+$("#deadend").hide();
 });// end of deadend
 });//end of function
