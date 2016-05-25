@@ -88,12 +88,12 @@ body {
     overflow: hidden;
 }
 
-#prisondoor{
-    height: 350px;
+#metal {
+    height: 175px;
     width: 175px;
     position: absolute;
-    top: 150px;
-    left: 350px;
+    top: 250px;
+    left: 612px;
 }
 
 .goldenkey2{
