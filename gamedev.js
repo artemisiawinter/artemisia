@@ -7,7 +7,6 @@ $("#prisondoor").hide();
 $(".goldenkey2").hide();
 $("#metaldiv").hide();
 $("#deadend").hide();
-$("#wintersh").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -39,19 +38,9 @@ $("#metaldiv").click(function(){
 	$("#metaldiv").hide();
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 	$("#deadend").show();
-	$("#wintersh").show();
 });//end of metaldiv
-
-
 $("#deadend").click(function(){
-	$("#exploreBody").css("background-image", "url(http://desktopwalls.net/wp-content/uploads/2014/09/Stone%20Bricks%20Wall%20Wooden%20Floor%20Desktop%20Wallpaper.jpg)");
-	$("#deadend").hide();
+$("#exploreBody").css("background-image", "url(http://desktopwalls.net/wp-content/uploads/2014/09/Stone%20Bricks%20Wall%20Wooden%20Floor%20Desktop%20Wallpaper.jpg)");
+$("#deadend").hide();
 });// end of deadend
-
-$("#wintersh").click(function(){
-	$("#wintersh").hide();
-	$("exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
-})
-
-
 });//end of function
