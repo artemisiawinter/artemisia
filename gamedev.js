@@ -6,6 +6,7 @@ $("#x").hide();
 $("#prisondoor").hide();
 $(".goldenkey2").hide();
 $("#metaldiv").hide();
+$("#deadend").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -36,5 +37,6 @@ $(document).mousemove(function(e) {
 $("#metaldiv").click(function(){
 	$("#metaldiv").hide();
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
+	$("#deadend").show();
 });//end of metaldiv
 });//end of function
