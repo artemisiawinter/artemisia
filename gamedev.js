@@ -34,6 +34,7 @@ $(document).mousemove(function(e) {
 });//goldenkey end
 
 $("#metaldiv").click(function(){
+	$("#metaldiv").hide();
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 });//end of metaldiv
 });//end of function
