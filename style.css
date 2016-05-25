@@ -89,11 +89,12 @@ body {
 }
 
 #metaldiv {
-    height: 175px;
+    height: 250px;
     width: 175px;
     position: absolute;
     top: 250px;
-    left: 612px;
+    left: 0px;
+    background-color: white;
 }
 
 .goldenkey2{
