@@ -17,7 +17,7 @@ $("#x").click(function(){
 	$("#startpgtext").show();
 	$("#instructions").hide();
 	$("#x").hide();
-})//end of "x"
+}); //end of "x"
 
 $("#goldenkey").click(function(){
 	$("#goldenkey").hide();
@@ -31,7 +31,7 @@ $(document).mousemove(function(e) {
         top: e.pageY + 20
     });
 });
-})//goldenkey end
+});//goldenkey end
 
 $("#metaldiv").click(function(){
 	$("#background3").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
