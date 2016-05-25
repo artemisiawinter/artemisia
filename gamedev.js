@@ -39,4 +39,7 @@ $("#metaldiv").click(function(){
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 	$("#deadend").show();
 });//end of metaldiv
+$("#deadend").click(function(){
+$("#exploreBody").css("background-image", "url(http://desktopwalls.net/wp-content/uploads/2014/09/Stone%20Bricks%20Wall%20Wooden%20Floor%20Desktop%20Wallpaper.jpg)");
+});// end of deadend
 });//end of function
