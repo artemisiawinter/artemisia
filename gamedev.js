@@ -5,6 +5,7 @@ $("#instructions").hide();
 $("#x").hide();
 $("#prisondoor").hide();
 $(".goldenkey2").hide();
+$("#metaldiv").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -23,6 +24,7 @@ $("#goldenkey").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#prisondoor").show();
 	$(".goldenkey2").show();
+	$("metaldiv").show();
 $(document).mousemove(function(e) {
     $('.goldenkey2').offset({
         left: e.pageX,
@@ -32,6 +34,6 @@ $(document).mousemove(function(e) {
 })//goldenkey end
 
 $("#metaldiv").click(function(){
-	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
+	$("#background3").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 });//end of metaldiv
 });//end of function
