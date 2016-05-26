@@ -47,6 +47,6 @@ $("#deadend").hide();
 });// end of deadend
 $("#wintersh").click(function(){
 	$("#wintersh").hide();
-	$("exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
+	$("#background3").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 });// end of wintersh
 });//end of function
