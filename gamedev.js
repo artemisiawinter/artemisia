@@ -27,12 +27,12 @@ $("#goldenkey").click(function(){
 	$("#prisondoor").show();
 	$(".goldenkey2").show();
 	$("#metaldiv").show();
-$(document).mousemove(function(e) {
-    $('.goldenkey2').offset({
-        left: e.pageX,
-        top: e.pageY + 20
-    });
-});
+	$(document).mousemove(function(e) {
+    	$('.goldenkey2').offset({
+        	left: e.pageX,
+        	top: e.pageY + 20
+    	});//end of offset
+	});//end of mousemove
 });//goldenkey end
 
 $("#metaldiv").click(function(){
@@ -41,12 +41,17 @@ $("#metaldiv").click(function(){
 	$("#deadend").show();
 	$("#wintersh").show();
 });//end of metaldiv
+
 $("#deadend").click(function(){
-$("#exploreBody").css("background-image", "url(http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg)");
-$("#deadend").hide();
-});// end of deadend
-$("#wintersh").click(function(){
+	$("#exploreBody").css("background-image", "url(http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg)");
+	$("#deadend").hide();
 	$("#wintersh").hide();
-	$("#background3").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
+});// end of deadend
+
+$("#wintersh").click(function(){
+	$("#deadend").hide();
+	$("#wintersh").hide();
+	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 });// end of wintersh
+
 });//end of function
