@@ -11,6 +11,7 @@ $("#wintersh").hide();
 $("#secondchancedoor").hide();
 $("#meetwinter").hide();
 $("#levanash").hide();
+$("#winterbackground").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
