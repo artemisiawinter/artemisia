@@ -141,3 +141,12 @@ body {
     left: 680px;
     background-color: white;
 }
+
+#levanash {
+    height: 250px;
+    width: 175px;
+    position: absolute;
+    top: 530px;
+    left: 555px; 
+    background-color: white;
+}
