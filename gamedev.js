@@ -10,7 +10,7 @@ $("#deadend").hide();
 $("#wintersh").hide();
 $("#secondchancedoor").hide();
 $("#meetwinter").hide();
-$("levanash").hide();
+$("#levanash").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
