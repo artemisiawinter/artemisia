@@ -10,6 +10,7 @@ $("#deadend").hide();
 $("#wintersh").hide();
 $("#secondchancedoor").hide();
 $("#meetwinter").hide();
+$("#levanash").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -42,12 +43,14 @@ $("#metaldiv").click(function(){
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 	$("#deadend").show();
 	$("#wintersh").show();
+	$("#levanash").show();
 });//end of metaldiv
 
 $("#deadend").click(function(){
 	$("#exploreBody").css("background-image", "url(http://preview.turbosquid.com/Preview/2014/05/25__08_44_59/pic%202.jpgdcf7e882-62c2-4f49-b050-36d6bcba174fOriginal.jpg)");
 	$("#deadend").hide();
 	$("#wintersh").hide();
+	$("levanash").hide();
 	$("#secondchancedoor").show();
 });// end of deadend
 
@@ -55,6 +58,7 @@ $("#wintersh").click(function(){
 	$("#deadend").hide();
 	$("#wintersh").hide();
 	$(".goldenkey2").hide();
+	$("levanash").hide();
 	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 	$("#meetwinter").show();
 });// end of wintersh
@@ -62,9 +66,22 @@ $("#wintersh").click(function(){
 $("#secondchancedoor").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#metaldiv").show();
+<<<<<<< HEAD
 });
 
 $("#meetwinter").click(function(){
 	$("#exploreBody").css("background-image", "url(http://blender.hu/galeria/2012/1.jpg)");
 });
+=======
+});//end of secondchancedoor
+
+$("#levanash").click(function(){
+	$("#levanash").hide();
+	$("#deadend").hide();
+	$("#wintersh").hide();
+	$(".goldenkey2").hide();
+	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
+}); //end of levanash
+
+>>>>>>> origin/master
 });//end of function

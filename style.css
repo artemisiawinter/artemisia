@@ -151,3 +151,11 @@ body {
     left: 680px;
     background-color: white;
 }
+
+#levanash {
+    height: 225px;
+    width: 175px;
+    position: absolute;
+    top: 555px;
+    left: 625px; 
+}
