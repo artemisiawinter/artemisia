@@ -69,7 +69,7 @@ $("#secondchancedoor").click(function(){
 });//end of secondchancedoor
 
 $("#levanash").click(function(){
-	$("levanash").hide();
+	$("#levanash").hide();
 	$("#deadend").hide();
 	$("#wintersh").hide();
 	$(".goldenkey2").hide();
