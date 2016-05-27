@@ -152,6 +152,14 @@ body {
     background-color: white;
 }
 
+#levanasr{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+}
+
 #levanash {
     height: 225px;
     width: 175px;
