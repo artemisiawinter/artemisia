@@ -143,10 +143,9 @@ body {
 }
 
 #levanash {
-    height: 250px;
+    height: 225px;
     width: 175px;
     position: absolute;
-    top: 530px;
+    top: 555px;
     left: 625px; 
-    background-color: white;
 }
