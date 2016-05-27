@@ -79,7 +79,17 @@ body {
 }
 
 #background3{
-    background-image: url("http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg")
+    background-image: url("http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg");
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow: hidden;
+}
+
+#winterbackground{
+    background-image: url("http://blender.hu/galeria/2012/1.jpg");
     position: absolute;
     top:0;
     bottom:0;

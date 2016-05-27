@@ -63,4 +63,8 @@ $("#secondchancedoor").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#metaldiv").show();
 });
+
+$("#meetwinter").click(function(){
+	$("#exploreBody").css("background-image", "url(http://blender.hu/galeria/2012/1.jpg)");
+});
 });//end of function
