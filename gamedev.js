@@ -57,4 +57,7 @@ $("#wintersh").click(function(){
 	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 });// end of wintersh
 
+$("#secondchancedoor").click(function(){
+	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
+});
 });//end of function
