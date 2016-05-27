@@ -53,7 +53,7 @@ $("#deadend").click(function(){
 $("#wintersh").click(function(){
 	$("#deadend").hide();
 	$("#wintersh").hide();
-	$("#goldenkey2").hide();
+	$(".goldenkey2").hide();
 	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 });// end of wintersh
 
