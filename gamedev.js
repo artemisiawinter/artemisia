@@ -66,14 +66,11 @@ $("#wintersh").click(function(){
 $("#secondchancedoor").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
 	$("#metaldiv").show();
-<<<<<<< HEAD
-});
+});//end of secondchancedoor
 
 $("#meetwinter").click(function(){
 	$("#exploreBody").css("background-image", "url(http://blender.hu/galeria/2012/1.jpg)");
-});
-=======
-});//end of secondchancedoor
+});//end of meetwinter
 
 $("#levanash").click(function(){
 	$("#levanash").hide();
@@ -83,5 +80,4 @@ $("#levanash").click(function(){
 	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 }); //end of levanash
 
->>>>>>> origin/master
 });//end of function
