@@ -43,7 +43,7 @@ $("#metaldiv").click(function(){
 	$("#exploreBody").css("background-image", "url(http://tespostcards.files.wordpress.com/2015/10/castle-dour-prision.jpg)");
 	$("#deadend").show();
 	$("#wintersh").show();
-	$("levanash").show();
+	$("#levanash").show();
 });//end of metaldiv
 
 $("#deadend").click(function(){
