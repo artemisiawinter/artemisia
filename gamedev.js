@@ -59,5 +59,6 @@ $("#wintersh").click(function(){
 
 $("#secondchancedoor").click(function(){
 	$("#exploreBody").css("background-image", "url(http://img.photobucket.com/albums/v90/subrosa_florens/oblivion/Oblivion348.jpg)");
+	$("#metaldiv").show();
 });
 });//end of function
