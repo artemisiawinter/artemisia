@@ -126,10 +126,10 @@ body {
 }
 
 #secondchancedoor{
-    height: 700px;
-    width: 300px;
+    height: 500px;
+    width: 250px;
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 400px;
     background-color: white;
 }
