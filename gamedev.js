@@ -71,6 +71,7 @@ $("#secondchancedoor").click(function(){
 
 $("#meetwinter").click(function(){
 	$("#exploreBody").css("background-image", "url(http://blender.hu/galeria/2012/1.jpg)");
+	$("#meetwinter").hide();
 });//end of meetwinter
 
 $("#levanash").click(function(){
