@@ -11,11 +11,8 @@ $("#wintersh").hide();
 $("#secondchancedoor").hide();
 $("#meetwinter").hide();
 $("#levanash").hide();
-<<<<<<< HEAD
 $("#levanasr").hide();
-=======
 $("#winterbackground").hide();
->>>>>>> origin/master
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -87,6 +84,7 @@ $("#levanash").click(function(){
 }); //end of levanash
 
 $("#levanasr").click(function(){
+	$("levanasr")/hide();
 	$("#exploreBody").css("background-image", "src=C:\img\throneroom.png");
 });//end of levanasr
 
