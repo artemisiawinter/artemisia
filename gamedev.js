@@ -91,6 +91,6 @@ $("#levanasr").click(function(){
 	$("#exploreBody").css("background-image", "src(/throneroom.png)");
 });//end of levanasr
 $("#staircase").click(function(){
-	$("#exploreBody").css("background-image", "castlestaircase/png")
+	$("#exploreBody").css("background-image", "image/castlestaircase/png")
 }); //end of staircase
 });//end of function
