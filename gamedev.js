@@ -100,6 +100,10 @@ $("#staircase").click(function(){
 
 $("#leftstaircase").click(function(){
 	$("exploreBody").css("background-image", "url(img/deadend.jpg)");
-		$("#leftstaircase").hide();
+	$("#leftstaircase").hide();
 });//end of left staircase
+
+$("#guard").click(function(){
+});
+
 });//end of function
