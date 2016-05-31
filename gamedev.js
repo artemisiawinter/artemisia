@@ -99,7 +99,7 @@ $("#staircase").click(function(){
 }); //end of staircase
 
 $("#leftstaircase").click(function(){
-	$("exploreBody").css("background-image", "url(img/deadend.jpg");
+	$("exploreBody").css("background-image", "url(img/deadend.jpg)");
 		$("#leftstaircase").hide();
 });//end of left staircase
 });//end of function
