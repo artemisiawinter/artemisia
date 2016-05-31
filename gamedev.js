@@ -15,6 +15,7 @@ $("#levanasr").hide();
 $("#winterbackground").hide();
 $("#staircase").hide();
 $("#leftstaircase").hide();
+$("#guard").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
