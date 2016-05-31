@@ -91,9 +91,15 @@ $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#exploreBody").css("background-image", "url(img/throneroom.png)");
 });//end of levanasr
+
 $("#staircase").click(function(){
 	$("#exploreBody").css("background-image", "url(img/castlestaircase.png)");
 	$("#staircase").hide();
 	$("#leftstaircase").show();
 }); //end of staircase
+
+$("#leftstaircase").click(function(){
+	$("exploreBody").css("background-image", "url(img/deadend.jpg");
+		$("#leftstaircase").hide();
+});//end of left staircase
 });//end of function
