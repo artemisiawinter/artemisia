@@ -14,6 +14,7 @@ $("#levanash").hide();
 $("#levanasr").hide();
 $("#winterbackground").hide();
 $("#staircase").hide();
+$("#leftstaircase").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -93,5 +94,6 @@ $("#levanasr").click(function(){
 $("#staircase").click(function(){
 	$("#exploreBody").css("background-image", "url(img/castlestaircase.png)");
 	$("#staircase").hide();
+	$("#leftstaircase").show();
 }); //end of staircase
 });//end of function

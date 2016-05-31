@@ -175,3 +175,11 @@ body {
     top: 100px;
     left: 330px;
 }
+#leftstaircase{
+    height: 850px;
+    width: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
