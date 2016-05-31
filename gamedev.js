@@ -88,7 +88,7 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
-	$("#exploreBody").css("background-image", "src(/img/throneroom.png)");
+	$("#exploreBody").css("background-image", "src(img/throneroom.png)");
 });//end of levanasr
 
 });//end of function
