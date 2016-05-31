@@ -92,5 +92,6 @@ $("#levanasr").click(function(){
 });//end of levanasr
 $("#staircase").click(function(){
 	$("#exploreBody").css("background-image", "url(img/castlestaircase.png)");
+	$("#staircase").hide();
 }); //end of staircase
 });//end of function
