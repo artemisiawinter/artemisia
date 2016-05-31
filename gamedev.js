@@ -13,6 +13,7 @@ $("#meetwinter").hide();
 $("#levanash").hide();
 $("#levanasr").hide();
 $("#winterbackground").hide();
+$("#staircase").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -63,6 +64,7 @@ $("#wintersh").click(function(){
 	$("levanash").hide();
 	$("#exploreBody").css("background-image", "url(http://www.campture.com/blog/wp-content/uploads/2015/11/3763149320_0cb98c8b45_b.jpg)");
 	$("#meetwinter").show();
+	$("#staircase").show();
 });// end of wintersh
 
 $("#secondchancedoor").click(function(){
