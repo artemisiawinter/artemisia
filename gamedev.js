@@ -90,6 +90,7 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
+	$("#guard").show();
 	$("#exploreBody").css("background-image", "url(img/throneroom.png)");
 });//end of levanasr
 
