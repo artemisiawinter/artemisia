@@ -106,6 +106,7 @@ $("#leftstaircase").click(function(){
 });//end of left staircase
 
 $("#guard").click(function(){
+	$("exploreBody").css("background-image", "url(img/gameover.jpg)")
 });
 
 });//end of function
