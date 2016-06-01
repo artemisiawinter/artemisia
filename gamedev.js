@@ -101,7 +101,7 @@ $("#staircase").click(function(){
 }); //end of staircase
 
 $("#leftstaircase").click(function(){
-	$("exploreBody").css("background-image", "url(img/deadend.jpg)");
+	$("exploreBody").css("background-image", "url(img/deadend.png)");
 	$("#leftstaircase").hide();
 });//end of left staircase
 
