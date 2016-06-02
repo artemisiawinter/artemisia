@@ -98,16 +98,6 @@ body {
     overflow: hidden;
 }
 
-#watchtower{
-    background-image: url("http://i48.tinypic.com/11wcb3s.jpg");
-    position: absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    overflow: hidden;
-}
-
 #metaldiv {
     height: 250px;
     width: 175px;
