@@ -16,6 +16,7 @@ $("#winterbackground").hide();
 $("#staircase").hide();
 $("#leftstaircase").hide();
 $("#guard").hide();
+$("#rightstaircase").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -99,6 +100,7 @@ $("#staircase").click(function(){
 	$("#exploreBody").css("background-image", "url(img/castlestaircase.png)");
 	$("#staircase").hide();
 	$("#leftstaircase").show();
+	$("#rightstaircase").show();
 }); //end of staircase
 
 $("#leftstaircase").click(function(){
