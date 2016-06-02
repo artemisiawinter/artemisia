@@ -190,3 +190,7 @@ body {
     left: 0px;
     background-color: white;
 }
+
+#gameover1 {
+    background-image: url("img/gameover");
+}

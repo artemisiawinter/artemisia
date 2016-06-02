@@ -90,7 +90,8 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
-	$("#guard").show();
+	$("#guard").show().delay(1000);
+	$("#gameover1").show();
 	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
 
@@ -105,8 +106,5 @@ $("#leftstaircase").click(function(){
 	$("#leftstaircase").hide();
 });//end of left staircase
 
-$("#guard").click(function(){
-	$("exploreBody").css("background-image", "url(img/gameover.jpg)")
-});
 
 });//end of function
