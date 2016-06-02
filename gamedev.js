@@ -100,7 +100,7 @@ $("#levanasr").click(function(){
 });//end of levanasr
 
 $("#staircase").click(function(){
-	$("#exploreBody").css("background-image", "url(img/castlestaircase.png)");
+	$("#exploreBody").css("background-image", "url(img/castlestaircase.jpg)");
 	$("#staircase").hide();
 	$("#leftstaircase").show();
 	$("#rightstaircase").show();
