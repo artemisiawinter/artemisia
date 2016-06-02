@@ -90,13 +90,8 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
-<<<<<<< HEAD
-	$("#guard").show().;
-	$("#gameover1").delay(300).show();
-=======
-	$("#guard").show().delay(1000);
+	$("#guard").show();
 	$("#gameover1").show();
->>>>>>> parent of a1f3ae7... game over pg attempt
 	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
 
