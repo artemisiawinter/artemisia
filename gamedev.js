@@ -91,7 +91,7 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
-	$("#guard").show();
+	$("#guard").show().delay(100).hide();
 	$("#gameover1").show();
 	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
