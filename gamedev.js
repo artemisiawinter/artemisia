@@ -91,10 +91,14 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
+<<<<<<< HEAD
 	$("#guard").show();
 	$("#guard").delay(100).hide();
+=======
+	$("#guard").show().delay(300).hide();
+>>>>>>> origin/master
 	$("#gameover1").show();
-	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
+	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").show().delay(300).hide();
 });//end of levanasr
 
 $("#staircase").click(function(){
@@ -105,12 +109,13 @@ $("#staircase").click(function(){
 }); //end of staircase
 
 $("#leftstaircase").click(function(){
-	$("exploreBody").css("background-image", "url(img/deadend.jpg)");
+	$("#exploreBody").css("background-image", "url(img/deadend.jpg)");
 	$("#leftstaircase").hide();
+	$("#rightstaircase").hide();
 });//end of left staircase
 
 $("#rightstaircase").click(function(){
-	$("exploreBody").css("background-image", "url(http://i48.tinypic.com/11wcb3s.jpg)");
+	$("#exploreBody").css("background-image", "url(http://i48.tinypic.com/11wcb3s.jpg)");
 	$("#rightstaircase").hide();
 	$("#leftstaircase").hide();
 });//end of right staircase
