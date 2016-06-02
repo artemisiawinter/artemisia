@@ -17,6 +17,7 @@ $("#staircase").hide();
 $("#leftstaircase").hide();
 $("#guard").hide();
 $("#rightstaircase").hide();
+$("#hammer").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -114,6 +115,7 @@ $("#rightstaircase").click(function(){
 	$("#exploreBody").css("background-image", "url(http://i48.tinypic.com/11wcb3s.jpg)");
 	$("#rightstaircase").hide();
 	$("#leftstaircase").hide();
+	$("#hammer").show();
 });//end of right staircase
 
 });//end of function

@@ -201,3 +201,11 @@ body {
 #gameover1 {
     background-image: url("img/gameover");
 }
+
+#hammer{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    left: 700px;
+}
