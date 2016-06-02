@@ -91,7 +91,8 @@ $("#levanash").click(function(){
 
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
-	$("#guard").show().delay(100).hide();
+	$("#guard").show();
+	$("#guard").delay(100).hide();
 	$("#gameover1").show();
 	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
@@ -107,6 +108,7 @@ $("#leftstaircase").click(function(){
 	$("exploreBody").css("background-image", "url(img/deadend.jpg)");
 	$("#leftstaircase").hide();
 });//end of left staircase
+
 $("#rightstaircase").click(function(){
 	$("exploreBody").css("background-image", "url(http://i48.tinypic.com/11wcb3s.jpg)");
 	$("#rightstaircase").hide();
