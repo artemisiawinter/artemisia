@@ -18,6 +18,7 @@ $("#leftstaircase").hide();
 $("#guard").hide();
 $("#rightstaircase").hide();
 $("#hammer").hide();
+$("#hammer2").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -118,4 +119,14 @@ $("#rightstaircase").click(function(){
 	$("#hammer").show();
 });//end of right staircase
 
+$("#hammer").click(function(){
+	$("#hammer").hide();
+	$("#hammer2").show();
+	$(document).mousemove(function(e) {
+    	$("#hammer2").offset({
+        	left: e.pageX,
+        	top: e.pageY + 20
+    	});//end of offset
+	});//end of mousemove
+});// end of hammer
 });//end of function
