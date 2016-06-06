@@ -20,6 +20,9 @@ $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
 $("#actualwinter").hide();
+$("#gameover1").hide();
+$("#throneroom").hide();
+
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
