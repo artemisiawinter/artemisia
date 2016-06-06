@@ -102,7 +102,7 @@ $("#levanasr").click(function(){
 	$("#guard").show().delay(500).fadeOut();
 	$("#throneroom").show().delay(500).fadeOut();
 	$("#gameover1").show();
-	$("#exploreBody").hide();
+	$("#exploreBody").show().delay(500).fadeOut();
 
 });//end of levanasr
 
