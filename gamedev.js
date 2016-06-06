@@ -19,6 +19,7 @@ $("#guard").hide();
 $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
+$("#actualwinter").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -80,6 +81,7 @@ $("#secondchancedoor").click(function(){
 $("#meetwinter").click(function(){
 	$("#exploreBody").css("background-image", "url(http://blender.hu/galeria/2012/1.jpg)");
 	$("#meetwinter").hide();
+	$("#actualwinter").show();
 });//end of meetwinter
 
 $("#levanash").click(function(){

@@ -224,3 +224,10 @@ body {
     width: 100px;
     height: 150px;
 }
+
+#actualwinter{
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    background-image: url("img/winterfanart.png");
+}
