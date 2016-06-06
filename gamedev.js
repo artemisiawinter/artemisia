@@ -94,9 +94,9 @@ $("#levanash").click(function(){
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#guard").show();
-	$("#guard").show().delay(100).fadeOut();
+	$("#guard").show().delay(500).fadeOut();
 	$("#gameover1").show();
-	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
+	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").show().delay(500).fadeOut();
 });//end of levanasr
 
 $("#staircase").click(function(){
