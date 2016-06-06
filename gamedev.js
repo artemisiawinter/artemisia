@@ -20,7 +20,12 @@ $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
 <<<<<<< HEAD
+<<<<<<< HEAD
 $("#actualwinter").hide();
+=======
+$("#throneroom").hide();
+$("#throneroom").css("background-image", "url(img/throneroom.jpg)");
+>>>>>>> origin/master
 =======
 $("#throneroom").hide();
 $("#throneroom").css("background-image", "url(img/throneroom.jpg)");
@@ -102,7 +107,6 @@ $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#guard").show();
 	$("#guard").show().delay(500).fadeOut();
-	$("#throneroom").show().delay(500).fadeOut();
 	$("#gameover1").show();
 });//end of levanasr
 
