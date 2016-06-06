@@ -19,7 +19,12 @@ $("#guard").hide();
 $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
+<<<<<<< HEAD
 $("#actualwinter").hide();
+=======
+$("#throneroom").hide();
+$("#throneroom").css("background-image", "url(img/throneroom.jpg)");
+>>>>>>> origin/master
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -96,9 +101,9 @@ $("#levanash").click(function(){
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#guard").show();
-	$("#guard").delay(100).hide();
+	$("#guard").show().delay(500).fadeOut();
+	$("#throneroom").show().delay(500).fadeOut();
 	$("#gameover1").show();
-	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
 
 $("#staircase").click(function(){
