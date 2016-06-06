@@ -19,6 +19,8 @@ $("#guard").hide();
 $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
+$("#throneroom").hide();
+$("#throneroom").css("background-image", "url(img/throneroom.jpg)");
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -96,7 +98,7 @@ $("#levanasr").click(function(){
 	$("#guard").show();
 	$("#guard").show().delay(500).fadeOut();
 	$("#gameover1").show();
-	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").show().delay(500).fadeOut();
+	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)");
 });//end of levanasr
 
 $("#staircase").click(function(){
