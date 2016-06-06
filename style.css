@@ -35,6 +35,10 @@ body {
     color: #abc;
   }
 
+  #throneroom {
+    background-image: url("img/throneroom");
+  }
+
   p {
     font-family: "times new roman";
     color: white;
