@@ -19,7 +19,7 @@ $("#guard").hide();
 $("#rightstaircase").hide();
 $("#hammer").hide();
 $("#hammer2").hide();
-
+$("#actualwinter").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
