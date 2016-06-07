@@ -22,6 +22,7 @@ $("#hammer2").hide();
 $("#actualwinter").hide();
 $("#gameover1").hide();
 $("#throneroom").hide();
+$("#winterspeech").hide();
 
 
 $("#instructionbutton").click(function(){
@@ -135,4 +136,8 @@ $("#hammer").click(function(){
     	});//end of offset
 	});//end of mousemove
 });// end of hammer
+
+$("#actualwinter").click(function(){
+	$("#winterspeech").show();
+});//end of actualwinter
 });//end of function
