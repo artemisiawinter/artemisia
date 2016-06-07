@@ -139,8 +139,7 @@ $("#hammer").click(function(){
 });// end of hammer
 
 $("#actualwinter").click(function(){
-	$("#winterspeech").show();
-	$("#winterspeech").hide();
-	$("#winterspeech2").delay(1000).show();
+	$("#winterspeech").show().delay(500).fadeOut();
+	$("#winterspeech2").show();
 });//end of actualwinter
 });//end of function
