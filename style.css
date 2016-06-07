@@ -374,10 +374,12 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
 }
 
 #finaltext{
+    background-color: white;
+    height: 150px;
+    width: 300px;
     font-size: 80px;
     top: 425px;
     left: 750px;
