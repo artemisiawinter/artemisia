@@ -23,6 +23,7 @@ $("#actualwinter").hide();
 $("#gameover1").hide();
 $("#throneroom").hide();
 $("#winterspeech").hide();
+$("#winterspeech2").hide();
 
 
 $("#instructionbutton").click(function(){
@@ -139,5 +140,6 @@ $("#hammer").click(function(){
 
 $("#actualwinter").click(function(){
 	$("#winterspeech").show();
+	$("#winterspeech2").delay(500).show();
 });//end of actualwinter
 });//end of function
