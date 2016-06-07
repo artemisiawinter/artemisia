@@ -186,4 +186,9 @@ $("#actualwinter6").click(function(){
 $("#tapestry").click(function(){
 	$("#hole").show();
 });//end of tapestry
+
+$("#hole").click(function(){
+	$("#exploreBody").css("background-image", "url(img/pipe.png)")
+	$("#hole").hide();
+});//end of hole
 });//end of function
