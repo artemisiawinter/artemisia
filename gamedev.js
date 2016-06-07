@@ -190,5 +190,12 @@ $("#tapestry").click(function(){
 $("#hole").click(function(){
 	$("#exploreBody").css("background-image", "url(img/pipe.png)")
 	$("#hole").hide();
+	$("#winterspeech6").hide();
+	$("#actualwinter").hide();
+	$("#actualwinter2").hide();
+	$("#actualwinter3").hide();
+	$("#actualwinter4").hide();
+	$("#actualwinter5").hide();
+	$("#actualwinter6").hide();
 });//end of hole
 });//end of function
