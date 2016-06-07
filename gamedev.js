@@ -202,6 +202,6 @@ $("#hole").click(function(){
 });//end of hole
 
 $("#transition").click(function(){
-	$("#exploreBody").css("background-image", "url(https://thekeegangibbs.files.wordpress.com/2009/11/c2a9kgibbs-3674.jpg?w=720&h=480)");
+	$("#exploreBody").css("background-image", "url(http://40.media.tumblr.com/b2148a504b79f73bff0df26b5ba46c2f/tumblr_n6kmpkThKX1tdzn9qo1_1280.jpg)");
 });//end of transition
 });//end of function
