@@ -367,3 +367,17 @@ body {
     top: 0px;
     left: 0px;
 }
+
+#lakezoom{
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#finaltext{
+    font-size: 80px;
+    top: 425px;
+    left: 750px;
+}

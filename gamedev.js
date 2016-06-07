@@ -37,6 +37,7 @@ $("#tapestry").hide();
 $("#hole").hide();
 $("#transition").hide();
 $("#lakezoom").hide();
+$("#finaltext").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -207,9 +208,9 @@ $("#transition").click(function(){
 	$("#lakezoom").show();
 });//end of transition
 
-$("#lakezoom").hover(function(){
-	$("#transition").hide();
-
+$("#lakezoom").click(function(){
+	$("exploreBody")css("background-image", "url(http://nightlizard.weebly.com/uploads/5/3/4/8/53488941/1519279_orig.png)")
+	$("#finaltext").show();
 });//end of lakezoom
 
 });//end of function
