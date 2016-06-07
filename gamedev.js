@@ -188,7 +188,7 @@ $("#tapestry").click(function(){
 });//end of tapestry
 
 $("#hole").click(function(){
-	$("#exploreBody").css("background-image", "url(img/pipe.png)")
+	$("#exploreBody").css("background-image", "url(img/pipe2.jpg)")
 	$("#hole").hide();
 	$("#winterspeech6").hide();
 	$("#actualwinter").hide();
