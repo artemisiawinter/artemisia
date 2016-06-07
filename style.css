@@ -359,3 +359,12 @@ body {
     width: 120px;
     height: 120px;
 }
+
+#transition{
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
