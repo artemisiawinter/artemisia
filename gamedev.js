@@ -146,7 +146,7 @@ $("#hammer").click(function(){
 	$("#hammer").hide();
 	$("#hammer2").show();
 	$(document).mousemove(function(e) {
-    	$("#hammer2").offset({
+    	$('#hammer2').offset({
         	left: e.pageX,
         	top: e.pageY + 20
     	});//end of offset
