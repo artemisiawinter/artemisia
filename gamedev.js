@@ -200,4 +200,8 @@ $("#hole").click(function(){
 	$("#actualwinter6").hide();
 	$("#transition").show();
 });//end of hole
+
+$("#transition").click(function(){
+	$("#exploreBody").css("background-image", "url(https://thekeegangibbs.files.wordpress.com/2009/11/c2a9kgibbs-3674.jpg?w=720&h=480)");
+});//end of transition
 });//end of function
