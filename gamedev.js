@@ -100,7 +100,7 @@ $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#guard").show();
 	$("#guard").show().delay(500).fadeOut();
-	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").delay(500).css("background-image", "url(img/gameover.jpg)");
+	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").delay(1000).css("background-image", "url(img/gameover.jpg)");
 	$("#gameover1").delay(500).show();
 
 });//end of levanasr
