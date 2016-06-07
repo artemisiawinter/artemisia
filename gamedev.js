@@ -136,10 +136,9 @@ $("#leftstaircase").click(function(){
 });//end of left staircase
 
 $("#rightstaircase").click(function(){
-	$("#exploreBody").css("background-image", "url(http://i48.tinypic.com/11wcb3s.jpg)");
-	$("#rightstaircase").hide();
+	$("#exploreBody").css("background-image", "url(img/gameover2.jpg)");
 	$("#leftstaircase").hide();
-	$("#hammer").show();
+	$("#rightstaircase").hide();
 });//end of right staircase
 
 $("#hammer").click(function(){
