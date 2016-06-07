@@ -33,7 +33,7 @@ $("#winterspeech5").hide();
 $("#actualwinter5").hide();
 $("#winterspeech6").hide();
 $("#actualwinter6").hide();
-
+$("#tapestry").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -179,5 +179,6 @@ $("#actualwinter5").click(function(){
 $("#actualwinter6").click(function(){
 	$("#winterspeech5").hide();
 	$("#winterspeech6").show();
+	$("#tapestry").show();
 });//end of actualwinter6
 });//end of function
