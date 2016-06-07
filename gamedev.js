@@ -140,6 +140,6 @@ $("#hammer").click(function(){
 
 $("#actualwinter").click(function(){
 	$("#winterspeech").show().delay(500).fadeOut();
-	$("#winterspeech2").show().delay(1500).fadeOut();
+	$("#winterspeech2").delay(1500).show();
 });//end of actualwinter
 });//end of function
