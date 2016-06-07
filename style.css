@@ -349,5 +349,13 @@ body {
     left: 1150px;
     height: 400px;
     width: 100px;
-    background-color: white;
+}
+
+#hole{
+    background-image: url("http://emojipedia-us.s3.amazonaws.com/cache/0d/11/0d1125747c6c436c4f5f074f6ba9e878.png");
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    width: 120px;
+    height: 120px;
 }

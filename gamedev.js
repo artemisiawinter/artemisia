@@ -34,6 +34,7 @@ $("#actualwinter5").hide();
 $("#winterspeech6").hide();
 $("#actualwinter6").hide();
 $("#tapestry").hide();
+$("#hole").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -181,4 +182,8 @@ $("#actualwinter6").click(function(){
 	$("#winterspeech6").show();
 	$("#tapestry").show();
 });//end of actualwinter6
+
+$("#tapestry").click(function(){
+	$("#hole").show();
+});//end of tapestry
 });//end of function
