@@ -36,6 +36,7 @@ $("#actualwinter6").hide();
 $("#tapestry").hide();
 $("#hole").hide();
 $("#transition").hide();
+$("#lakezoom").hide();
 
 $("#instructionbutton").click(function(){
 	$("#startpgtext").hide();
@@ -203,5 +204,12 @@ $("#hole").click(function(){
 
 $("#transition").click(function(){
 	$("#exploreBody").css("background-image", "url(http://40.media.tumblr.com/b2148a504b79f73bff0df26b5ba46c2f/tumblr_n6kmpkThKX1tdzn9qo1_1280.jpg)");
+	$("#lakezoom").show();
 });//end of transition
+
+$("#lakezoom").hover(function(){
+	$("#transition").hide();
+	$("#ex1").zoom();
+});//end of lakezoom
+
 });//end of function
