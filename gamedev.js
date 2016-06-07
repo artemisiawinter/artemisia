@@ -209,7 +209,12 @@ $("#transition").click(function(){
 
 $("#lakezoom").hover(function(){
 	$("#transition").hide();
-	$("#ex1").zoom();
+	$(function(){
+        $('#pic').toggle(
+              function() { $("#lakezoom".animate({width: "100%"}, 500)},
+               function() { $("#lakezoom").animate({width: "50px"}, 500); }
+        );
+  });  //end of zoom
 });//end of lakezoom
 
 });//end of function
