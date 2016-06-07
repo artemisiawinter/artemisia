@@ -24,6 +24,7 @@ $("#gameover1").hide();
 $("#throneroom").hide();
 $("#winterspeech").hide();
 $("#winterspeech2").hide();
+$("#actualwinter2").hide();
 
 
 $("#instructionbutton").click(function(){
@@ -139,7 +140,12 @@ $("#hammer").click(function(){
 });// end of hammer
 
 $("#actualwinter").click(function(){
-	$("#winterspeech").show().delay(500).fadeOut();
-	$("#winterspeech2").delay(1500).show();
+	$("#winterspeech").show();
+	$("#actualwinter2").show();
 });//end of actualwinter
+
+$("#actualwinter2").click(function(){
+	$("#winterspeech").hide();
+	$("#winterspeech2").show();
+});//end of actualwinter2
 });//end of function
