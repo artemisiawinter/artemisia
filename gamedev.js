@@ -99,7 +99,7 @@ $("#levanash").click(function(){
 $("#levanasr").click(function(){
 	$("#levanasr").hide();
 	$("#guard").show();
-	$("#guard").show().delay(500).fadeOut();
+	$("#guard").show().delay(200).fadeOut();
 	$("#exploreBody").css("background-image", "url(img/throneroom.jpg)").delay(1000).css("background-image", "url(img/gameover.jpg)");
 	$("#gameover1").delay(500).show();
 
