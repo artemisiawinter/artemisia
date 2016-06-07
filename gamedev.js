@@ -27,6 +27,8 @@ $("#winterspeech2").hide();
 $("#actualwinter2").hide();
 $("#winterspeech3").hide();
 $("#actualwinter3").hide();
+$("#winterspeech4").hide();
+$("#actualwinter4").hide();
 
 
 $("#instructionbutton").click(function(){
@@ -155,5 +157,11 @@ $("#actualwinter2").click(function(){
 $("#actualwinter3").click(function(){
 	$("#winterspeech2").hide();
 	$("#winterspeech3").show();
+	$("#actualwinter4").show();
 });//end of actualwinter3
+
+$("#actualwinter4").click(function(){
+	$("#winterspeech3").hide();
+	$("#winterspeech4").show();
+});// end of actualwinter4
 });//end of function
