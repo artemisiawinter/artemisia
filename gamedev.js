@@ -205,8 +205,14 @@ $("#hole").click(function(){
 
 $("#transition").click(function(){
 	$("#exploreBody").css("background-image", "url(http://40.media.tumblr.com/b2148a504b79f73bff0df26b5ba46c2f/tumblr_n6kmpkThKX1tdzn9qo1_1280.jpg)");
+	$("#transition").hide();
 	$("#lakezoom").show();
 });//end of transition
 
+$("#lakezoom").click(function(){
+	$("exploreBody").css("background-image", "url(http://nightlizard.weebly.com/uploads/5/3/4/8/53488941/1519279_orig.png)");
+	$("finaltext").show();
+	$("#lakezoom").hide();
+});
 
 });//end of function
