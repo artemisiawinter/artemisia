@@ -375,11 +375,3 @@ body {
     top: 0px;
     left: 0px;
 }
-
-#finaltext{
-    position: absolute;
-    left: 750px;
-    top: 425px;
-    font-size: 50px;
-    text-align: center;
-}
